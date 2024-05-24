@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Bootstrap 5 icons CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>CRUD Operações</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<section class="p-3">
+
+	<div class ="row">
+       <div class="col-12">
+         <button class="btn btn-primary newUser" data-bs-toggle="modal" data-bs-target="#userForm">Novo Usuario <i class="bi bi-people"></i></button>
+       </div>  
+	</div>
+
+   <div class="row">
+            <div class="col-12">
+                <table class="table table-striped table-hover mt-3 text-center table-bordered">
+				
+				 <thead>
+             <tr>
+                <th>Codigo</th>
+                <th>Foto</th>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+                <th>Email</th>
+                <th>TeleFone</th>
+                <th>CEP</th>
+                <th>Data Inicio</th>
+                <th>Ação</th>
+             </tr>
+			  	</thead>	
+
+         <tbody id="data"></tbody>
+
+       </table>
+     </div>
+   </div>
+
+ </section>
+
+
+  </body>
+</html>
